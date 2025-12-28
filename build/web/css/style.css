@@ -1,0 +1,140 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-color: #121212; 
+    color: #E0E0E0; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+
+.container {
+    width: 90%;
+    max-width: 700px; 
+    padding: 40px;
+    background: #1E1E1E; 
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); 
+    border: 1px solid #333333;
+}
+
+h2 {
+    color: #4CAF50; 
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #B0B0B0; 
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+   
+    background-color: #2D2D2D; 
+    color: #E0E0E0; 
+    border: 1px solid #555;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50; 
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    
+    background-color: #FF5722; 
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s;
+}
+
+button[type="submit"]:hover {
+    background-color: #E64A19;
+    transform: translateY(-2px); 
+}
+
+
+
+.profile-card {
+    padding: 20px;
+    border: 1px dashed #555;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.profile-card strong {
+    color: #90CAF9; 
+}
+
+.intro-quote {
+    border-left: 5px solid #FF5722;
+    background-color: #2D2D2D;
+    color: #E0E0E0;
+    padding: 15px 20px;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+hr {
+    border-top: 1px solid #444;
+}
+
+.back-link a {
+    color: #B0B0B0;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a:hover {
+    color: #FF5722;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #2D2D2D; /* Match your input field color */
+    color: #E0E0E0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #444; /* Match your hr border color */
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #4CAF50; /* Match your h2 color */
+}
